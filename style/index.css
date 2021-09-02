@@ -295,7 +295,14 @@ footer .button {
 }
 
 .left img {
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2), 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  transition: 500ms;
   width: 100%;
+}
+
+.left img:hover {
+  box-shadow: 0 1rem 1.5rem rgb(0, 0, 0, 0.4), 0 1rem 2.5rem 0 rgba(0, 0, 0, 0.4);
+  transform: translateX(1%) translateY(-1%) rotate(1deg);
 }
 
 .right {
@@ -340,6 +347,11 @@ footer .button {
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+
+.gallery > div:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2), 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
 .container {
