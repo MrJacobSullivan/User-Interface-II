@@ -223,7 +223,7 @@ footer {
   justify-self: flex-end;
 }
 
-footer div {
+footer > div {
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -235,12 +235,21 @@ footer h3 {
   text-align: center;
 }
 
-footer button {
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-self: center;
-  cursor: pointer;
-  height: 5rem;
-  margin-top: 4%;
-  width: 40%;
+  width: 50%;
+}
+
+.icons i {
+  font-size: 3.5rem;
+  transition: 100ms;
+}
+
+.icons i:hover {
+  color: black;
 }
 
 /* || Button */
@@ -253,7 +262,7 @@ footer button {
   display: flex;
   height: 5rem;
   justify-content: center;
-  margin: 5% 0 5%;
+  margin: 5% 0;
   transition: 100ms;
   width: 40%;
 }
@@ -262,6 +271,7 @@ footer .button {
   align-self: center;
   background-color: white;
   border: 1px solid #4f4f4f;
+  margin: 10% 0;
   width: 50%;
 }
 
