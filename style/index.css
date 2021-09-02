@@ -260,6 +260,8 @@ footer button {
 
 footer .button {
   align-self: center;
+  background-color: white;
+  border: 1px solid #4f4f4f;
   width: 50%;
 }
 
