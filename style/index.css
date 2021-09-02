@@ -1,1 +1,48 @@
 @import url('./shared/common.css');
+
+.info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.left {
+  margin-right: 1%;
+  width: 100%;
+  padding: 2%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  padding: 2%;
+  width: 100%;
+  margin-left: 1%;
+}
+
+.right h2 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.right button {
+  background: green;
+  color: white;
+  padding: 1% 2%;
+  font-size: 2rem;
+  border-radius: 1rem;
+  margin: 2% 0 2%;
+}
+
+.right div {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.right p {
+  display: inline;
+  vertical-align: text-bottom;
+  width: 60%;
+  font-size: 2rem;
+}

@@ -1,9 +1,6 @@
-header * {
-  border: 1px solid red;
-}
-
 header {
-  padding: 2%;
+  padding: 2% 2% 0;
+  background: lightgray;
 }
 
 nav {
