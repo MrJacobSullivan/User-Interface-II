@@ -46,3 +46,19 @@
   width: 60%;
   font-size: 2rem;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+.gallery div {
+  width: 25%;
+}
+
+.gallery img {
+}
+
+.gallery p {
+}
