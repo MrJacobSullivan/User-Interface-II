@@ -18,6 +18,11 @@ body {
   line-height: 1.5;
 }
 
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
 h1,
 h2 {
   font-family: 'Nunito', sans-serif;

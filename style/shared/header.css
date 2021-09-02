@@ -1,0 +1,33 @@
+header * {
+  border: 1px solid red;
+}
+
+header {
+  padding: 2%;
+}
+
+nav {
+  padding: 2%;
+  display: flex;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+a {
+  text-align: center;
+  width: 7.5%;
+  background: gray;
+  color: white;
+  padding: 0.5% 1%;
+}
+
+a:hover {
+  background: black;
+}
+
+a.disabled {
+  background: black;
+  pointer-events: none;
+}
