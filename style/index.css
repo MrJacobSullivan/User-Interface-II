@@ -1,0 +1,305 @@
+/* || Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* body {
+  line-height: 1;
+} */
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* || Base */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 62.5%;
+}
+
+body {
+  color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* || Header */
+
+header {
+  background: lightgray;
+  padding: 2% 2% 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+nav {
+  display: flex;
+  padding: 2%;
+}
+
+nav a {
+  background: gray;
+  color: white !important;
+  padding: 0.5% 1%;
+  text-align: center;
+  width: 7.5%;
+}
+
+nav a:hover {
+  background: black;
+}
+
+nav a.disabled {
+  background: black;
+  pointer-events: none;
+}
+
+/* || Main */
+
+main {
+  flex-grow: 1;
+}
+
+/* || Footer */
+
+footer {
+  align-content: center;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  justify-self: flex-end;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 35%;
+}
+
+footer h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+footer button {
+  align-self: center;
+  cursor: pointer;
+  height: 5rem;
+  margin-top: 4%;
+  width: 40%;
+}
+
+/* || route: / */
+
+.info {
+  align-items: flex-end;
+  display: flex;
+}
+
+.left {
+  margin-right: 1%;
+  padding: 2%;
+  width: 100%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  padding: 2%;
+  margin-left: 1%;
+  width: 100%;
+}
+
+.right h2 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+.right button {
+  align-self: center;
+  cursor: pointer;
+  height: 5rem;
+  margin-top: 4%;
+  width: 40%;
+}
+
+.right div {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.right p {
+  display: inline;
+  font-size: 2rem;
+  vertical-align: text-bottom;
+  width: 60%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+.gallery div {
+  width: 25%;
+}
+
+.gallery img {
+}
+
+.gallery p {
+}
+
+/* || route: /about */
+/* || route: /contact */
+/* || route: /projects */
