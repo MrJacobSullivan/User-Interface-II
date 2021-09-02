@@ -10,3 +10,15 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  color: #4f4f4f;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: 'Nunito', sans-serif;
+}
