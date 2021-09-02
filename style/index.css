@@ -62,3 +62,29 @@
 
 .gallery p {
 }
+
+footer {
+  background: lightgray;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 35%;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+footer button {
+  width: 40%;
+  height: 5rem;
+  align-self: center;
+  margin-top: 4%;
+}
