@@ -194,6 +194,7 @@ nav a {
   color: white !important;
   padding: 0.5% 1%;
   text-align: center;
+  transition: 100ms;
   width: 7.5%;
 }
 
@@ -242,6 +243,31 @@ footer button {
   width: 40%;
 }
 
+/* || Button */
+
+.button {
+  align-items: center;
+  background: gainsboro;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin: 5% 0 5%;
+  transition: 100ms;
+  width: 40%;
+}
+
+footer .button {
+  align-self: center;
+  width: 50%;
+}
+
+.button:hover {
+  background: gray;
+  color: white;
+}
+
 /* || @route: / */
 
 .info {
@@ -266,29 +292,30 @@ footer button {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding: 2%;
+  padding: 2% 4%;
   width: 50%;
 }
 
 .text-container {
   margin-top: 2%;
-  width: 100%;
 }
 
 .right h2 {
   font-size: 4rem;
 }
 
-.right button {
-  cursor: pointer;
-  height: 5rem;
-  margin: 5% 0 5%;
-  width: 40%;
+.right p {
+  font-size: 2rem;
+  width: 90%;
 }
 
-.right p {
-  font-size: 2.5rem;
-  width: 90%;
+.right span a {
+  text-decoration: underline;
+  transition: 100ms;
+}
+
+.right span:hover a {
+  color: #e93c49;
 }
 
 .gallery {
