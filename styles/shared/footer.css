@@ -1,0 +1,26 @@
+footer {
+  align-content: center;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 35%;
+}
+
+footer h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+footer button {
+  align-self: center;
+  cursor: pointer;
+  height: 5rem;
+  margin-top: 4%;
+  width: 40%;
+}
