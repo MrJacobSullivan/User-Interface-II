@@ -3,6 +3,7 @@ footer {
   background: lightgray;
   display: flex;
   justify-content: center;
+  justify-self: flex-end;
 }
 
 footer div {

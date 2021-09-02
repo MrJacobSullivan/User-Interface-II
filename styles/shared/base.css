@@ -19,9 +19,17 @@ html {
 
 body {
   color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+main {
+  flex-grow: 1;
 }
 
 a {
