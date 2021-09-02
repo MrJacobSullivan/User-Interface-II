@@ -1,3 +1,9 @@
+/* || Development Styles */
+
+/* * {
+  border: 1px solid gray;
+} */
+
 /* || Reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -236,17 +242,18 @@ footer button {
   width: 40%;
 }
 
-/* || route: / */
+/* || @route: / */
 
 .info {
   align-items: flex-end;
   display: flex;
+  justify-content: space-between;
 }
 
 .left {
-  margin-right: 1%;
+  align-self: middle;
   padding: 2%;
-  width: 100%;
+  width: 50%;
 }
 
 .left img {
@@ -254,52 +261,58 @@ footer button {
 }
 
 .right {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   padding: 2%;
-  margin-left: 1%;
-  width: 100%;
+  width: 50%;
 }
 
-.right h2 {
-  font-size: 3rem;
-  margin-bottom: 2%;
-}
-
-.right button {
-  align-self: center;
-  cursor: pointer;
-  height: 5rem;
-  margin-top: 4%;
-  width: 40%;
-}
-
-.right div {
+.text-container {
   margin-top: 2%;
   width: 100%;
 }
 
+.right h2 {
+  font-size: 4rem;
+}
+
+.right button {
+  cursor: pointer;
+  height: 5rem;
+  margin: 5% 0 5%;
+  width: 40%;
+}
+
 .right p {
-  display: inline;
-  font-size: 2rem;
-  vertical-align: text-bottom;
-  width: 60%;
+  font-size: 2.5rem;
+  width: 90%;
 }
 
 .gallery {
+  align-content: stretch;
   display: flex;
   flex-wrap: wrap;
-  margin: 2%;
 }
 
-.gallery div {
+.gallery > div {
+  display: flex;
+  flex-direction: column;
   width: 25%;
 }
 
-.gallery img {
+.container {
+  margin: 8%;
 }
 
-.gallery p {
+.container p {
+  padding-top: 2%;
 }
 
-/* || route: /about */
-/* || route: /contact */
-/* || route: /projects */
+/* || @route: /about */
+
+/* || @route: /contact */
+
+/* || @route: /projects */
