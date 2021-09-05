@@ -365,6 +365,7 @@ footer .button {
 /* Media Queries */
 
 @media (max-width: 800px) {
+  /* || Header */
   h1 {
     text-align: center;
   }
@@ -383,6 +384,49 @@ footer .button {
 
   nav a:hover {
     background: gray;
+  }
+
+  /* || @route: / */
+  .info {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 0 0;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .left img {
+    width: 90%;
+  }
+
+  .right {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-container {
+    margin-top: 1%;
+    width: 90%;
+  }
+
+  .right p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .right span a {
+    text-decoration: none;
+    transform: none;
+  }
+
+  .right span:hover a {
+    color: #4f4f4f;
   }
 }
 
