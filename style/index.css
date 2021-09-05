@@ -455,6 +455,11 @@ footer .button {
     margin-top: 1%;
     width: 40%;
   }
+
+  /* || Footer */
+  footer > div {
+    width: 80%;
+  }
 }
 
 /* || @route: /about */
