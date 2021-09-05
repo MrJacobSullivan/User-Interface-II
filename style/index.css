@@ -386,6 +386,12 @@ footer .button {
     background: gray;
   }
 
+  /* || Footer */
+
+  footer > div {
+    width: 50%;
+  }
+
   /* || @route: / */
   .info {
     align-items: center;
