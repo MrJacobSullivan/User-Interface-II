@@ -362,6 +362,14 @@ footer .button {
   padding-top: 2%;
 }
 
+/* Media Queries */
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 500px) {
+}
+
 /* || @route: /about */
 
 /* || @route: /contact */
