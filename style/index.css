@@ -365,6 +365,25 @@ footer .button {
 /* Media Queries */
 
 @media (max-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav a {
+    padding: 1% 2%;
+    margin-top: 0.25%;
+    width: 20%;
+  }
+
+  nav a:hover {
+    background: gray;
+  }
 }
 
 @media (max-width: 500px) {
