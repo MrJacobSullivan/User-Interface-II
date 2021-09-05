@@ -449,6 +449,12 @@ footer .button {
 }
 
 @media (max-width: 500px) {
+  /* || Header */
+  nav a {
+    padding: 2% 4%;
+    margin-top: 1%;
+    width: 40%;
+  }
 }
 
 /* || @route: /about */
