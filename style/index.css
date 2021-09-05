@@ -451,8 +451,8 @@ footer .button {
 @media (max-width: 500px) {
   /* || Header */
   nav a {
-    padding: 2% 4%;
     margin-top: 1%;
+    padding: 2% 4%;
     width: 40%;
   }
 
